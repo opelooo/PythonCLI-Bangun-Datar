@@ -1,3 +1,17 @@
 #PythonPlayground
 
-Membuat menu di python dengan hanya sedikit statement if, memanfaatkan tipe data dict yang di isikan function sebagai gantinya
+
+program ini ditujukan untuk menghitung luas atau keliling dari suatu bangun datar,
+
+Bangun datar yang dicakup adalah
+
+a.	Segitiga Sama Kaki
+
+b.	Persegi Panjang
+
+c.	Lingkaran
+
+d.	Jajar Genjang
+
+e.	Trapesium
+
