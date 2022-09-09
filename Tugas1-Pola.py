@@ -1,5 +1,6 @@
 import math
 
+#menu pertama untuk pilih bangun mana yang mau dicari keliling atau luasnya
 pilih = input("""
 Pilih Menu:
 a.	Segitiga Sama Kaki
@@ -11,7 +12,7 @@ e.	Trapesium Sama Kaki
 
 pilih1 = ""
 
-#Keliling bangun
+#function Keliling bangun
 def KelilingSSK(): 
     a = int(input("Alas: ")) 
     k = int(input("Panjang Kaki: "))
@@ -32,7 +33,7 @@ def KelilingT():
     s2 = int(input("Sisis 2: "))
     return "Keliling Trapesium: {}".format(2*(s1+s2))
 
-#Luas bangun
+#function Luas bangun
 def LuasSSK(): 
     a = int(input("Alas: ")) 
     t = int(input("Tinggi: "))
@@ -61,13 +62,17 @@ def menu(pilih):
     Int = 0
     for x in bisa_pilih:
         if pilih == x:
+            #menu kedua untuk pilih luas atau keliling bangun
             pilih1 = input("Pilih Menu:\n1.  Luas {}\n2.  Keliling {}\n>".format(bangun[Int], bangun[Int]))
         Int += 1
+    #ganti dari if statement adalah tipe data dictionary yang nantinya dipanggil di print
+    #saya gamau buat banyak if jadi pake ini aja
     syarat = {(pilih1 == "1" and pilih == "A") : LuasSSK, (pilih1 == "1" and pilih == "B") : LuasPP, 
               (pilih1 == "1" and pilih == "C") : LuasL, (pilih1 == "1" and pilih == "D") : LuasJG, 
               (pilih1 == "1" and pilih == "E") : LuasT, (pilih1 == "2" and pilih == "A") : KelilingSSK, 
               (pilih1 == "2" and pilih == "B") : KelilingPP, (pilih1 == "2" and pilih == "C") : KelilingL, 
               (pilih1 == "2" and pilih == "D") : KelilingJG, (pilih1 == "2" and pilih == "E") : KelilingT}
+    #memanggil dict yang bernilai True lalu mengeksekusinya di sini bukan di variable syarat
     print(syarat[True]())
         
 
