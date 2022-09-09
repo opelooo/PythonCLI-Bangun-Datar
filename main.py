@@ -1,3 +1,6 @@
+'''
+Mathys Jorge Alberino Seilatu- 205314174
+'''
 import math
 
 #menu pertama untuk pilih bangun mana yang mau dicari keliling atau luasnya
