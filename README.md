@@ -1,4 +1,4 @@
-program ini ditujukan untuk menghitung luas atau keliling dari suatu bangun datar,
+Program ini ditujukan untuk menghitung luas atau keliling dari suatu bangun datar,
 
 Bangun datar yang dicakup adalah
 
