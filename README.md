@@ -1,6 +1,3 @@
-#PythonPlayground
-
-
 program ini ditujukan untuk menghitung luas atau keliling dari suatu bangun datar,
 
 Bangun datar yang dicakup adalah
@@ -14,4 +11,3 @@ c.	Lingkaran
 d.	Jajar Genjang
 
 e.	Trapesium
-
