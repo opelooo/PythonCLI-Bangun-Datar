@@ -23,7 +23,7 @@ def KelilingSSK():
 def KelilingPP(): 
     p = int(input("Panjang: "))
     l = int(input("Lebar: "))
-    return "Keliling Persegi Panjang: {}".format(2(p+l))
+    return "Keliling Persegi Panjang: {}".format(2*(p+l))
 def KelilingL(): 
     r = int(input("Jari-Jari: "))
     return "Keliling Lingkaran: {}".format(2*math.pi*r)
