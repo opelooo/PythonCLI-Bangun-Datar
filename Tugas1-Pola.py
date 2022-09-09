@@ -65,8 +65,8 @@ def menu(pilih):
             #menu kedua untuk pilih luas atau keliling bangun
             pilih1 = input("Pilih Menu:\n1.  Luas {}\n2.  Keliling {}\n>".format(bangun[Int], bangun[Int]))
         Int += 1
-    #ganti dari if statement adalah tipe data dictionary yang nantinya dipanggil di print
     #saya gamau buat banyak if jadi pake ini aja
+    #ganti dari if statement adalah tipe data dictionary yang nantinya dieksekusi di print
     syarat = {(pilih1 == "1" and pilih == "A") : LuasSSK, (pilih1 == "1" and pilih == "B") : LuasPP, 
               (pilih1 == "1" and pilih == "C") : LuasL, (pilih1 == "1" and pilih == "D") : LuasJG, 
               (pilih1 == "1" and pilih == "E") : LuasT, (pilih1 == "2" and pilih == "A") : KelilingSSK, 
